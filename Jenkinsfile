@@ -8,7 +8,7 @@ pipeline {
 
     environment {
         DOCKERHUB_AUTH = credentials('DockerHubCredentials')
-        ID_DOCKER = "${DOCKERHUB_AUTH_USR}" // ou votre username directement
+        ID_DOCKER = "mechegut13" // ou votre username directement
         IMAGE_NAME = "paymybuddy"
         IMAGE_TAG = "latest"
     }
